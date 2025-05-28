@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      margin:0;
+      height:100vh;
+      display: flex;
+      align-items:center;
+      justify-content:center;
+      background-color:#f0f0f0;
+    }
+    .window {
+      background-color:orange;
+      height:50vh;
+      width:26%;
+      border-top-left-radius:280px;
+      border-top-right-radius:280px;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      gap:26px;
+      padding:20px;
+      border:3px solid darkorange;
+    }
+    .mca, .bca, .bba {
+      padding:10px ;
+      text-align:center;
+      width:45vh;
+      border:2px dashed black;
+      box-shadow:7px 7px 7px white;
+    }
+    .mca {
+      background-color:red;
+      margin-top:80px;
+    }
+    .bca {
+      background-color:yellow;
+    }
+    .bba {
+      background-color:green;
+    }
+    .hmca {
+      color:white;
+      font-weight:bold;
+      margin:0;
+    }
+    .hbca {
+      color:black;
+      font-weight:bold;
+      margin:0;
+    }
+    .hbba {
+      color:yellow;
+      font-weight:bold;
+      margin:0;
+    }
+  </style>
+</head>
+<body>
+  <div class="window">
+    <div class="mca">
+      <h1 class="hmca">MCA</h1>
+    </div>
+    <div class="bca">
+      <h1 class="hbca">BCA</h1>
+    </div>
+    <div class="bba">
+      <h1 class="hbba">BBA</h1>
+    </div>
+  </div>
+</body>
+</html>
